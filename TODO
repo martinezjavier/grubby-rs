@@ -1,0 +1,10 @@
+TODO:
+
+- Add tests
+- Add BUILD / INSTALL docs
+- Improve error handling (i.e: return Result everywhere)
+- Improve config parsing, have a Config struct to store all the options
+- Read /etc/default/grub, /etc/sysconfig/kernel and zipl.conf
+- Update default in grubenv and zipl.conf
+- Create debug entries
+- Create entries for entries with the same kernel version

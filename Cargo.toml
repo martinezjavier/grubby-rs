@@ -1,0 +1,16 @@
+[package]
+name = "grubby"
+version = "0.1.0"
+authors = ["Javier Martinez Canillas <javierm@redhat.com>"]
+edition = "2018"
+description = "Command line tool for updating bootloader configs"
+license = "GPL-2.0-or-later"
+
+[dependencies]
+blsctl = "0.2.3"
+getopts = "0.2"
+
+[dev-dependencies]
+serial_test = "0.5"
+serial_test_derive = "0.5"
+tempfile = "3.1.0"
